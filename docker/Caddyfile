@@ -1,0 +1,21 @@
+{
+    # HTTP/3 support
+    servers {
+        protocol {
+            experimental_http3
+        }
+    }
+}
+
+{$SERVER_NAME}
+
+log
+
+route {
+    root * {$DOCUMENT_ROOT}
+
+    push
+    php_fastcgi {$PHP_GATEWAY}
+    encode zstd gzip
+    file_server
+}
