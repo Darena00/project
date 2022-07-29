@@ -1,0 +1,245 @@
+/* Demo Agency */
+body {
+	font-family:Open Sans;
+	color: #6b6b6b;
+	background-color: #fff;
+}
+.dark-color {
+	color: #313539;
+}
+a, a:hover, a:active, .color {
+	color: #e67e22;
+}
+.text-shadow {
+	text-shadow: 0px 0px 1px rgba(49, 53, 57,0.2);
+}
+#fount-to-top {
+    color: #e67e22;
+}
+.header-font {
+	font-family: 'Raleway', sans-serif;
+}
+.owl-carousel .big .headings-top {
+    font-size: 38px;
+}
+
+.highlighted {
+	background-color: transparent;
+	border-color: rgba(150, 150, 150,0.2);
+	color: #e67e22;
+}
+
+.highlighted:focus {
+	background-color: rgba(230, 126, 34,0.1);
+	border-color: rgba(230, 126, 34,0.65);
+	color: #e67e22;
+}
+
+.simple_line {
+    border-color: #c5c5c5;
+}
+
+.simple_line.icon {
+    position: relative;
+}
+
+.simple_line.icon i {
+    position: absolute;
+    left: 50%;
+    font-size: 42px;
+    margin-left: -34px;
+    margin-top: -20px;
+    padding: 0px 14px;
+	color: #313539;
+	background-color:#fff;
+}
+.white-tabs .nav-tabs > li.active > a {
+    color:#e67e22;
+}
+.tm_content h4 {
+	line-height: 28px;
+}
+.testimonials_slider.owl-theme .tm_title {
+	color:#e67e22;
+}
+.testimonials_slider.owl-theme .owl-controls .owl-page.active span, 
+.testimonials_slider.owl-theme .owl-controls.clickable .owl-page:hover span {
+    background-color: #e67e22;
+}
+.folio-overlay {
+    background-color: rgba(0, 0, 0, 0.55);
+}
+.bordered-buttons.theme-button a {
+	border-color: #e67e22;
+	color: #e67e22;
+}
+
+.fount-folio-filter li a {
+    color: #555555;
+}
+.fount-folio-filter li a.active,
+.fount-folio-filter li:hover a {
+	color: #e67e22;
+}
+.fount-folio-filter li a:after {
+    background-color: #e67e22;
+}
+.bg-color {
+	background-color: #e67e22;
+}
+#main {
+    position: relative;
+}
+#footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    /*z-index: -1;*/
+	z-index: 0;
+	height: 471px;
+}
+#footer > .footer-inner {
+    position: static;
+    bottom: 0;
+	width: 100%;
+	background-color: #111111;
+	color: #616161;
+}
+#footer .widget .widget-title {
+	color: #e2e2e2;
+	text-shadow: 0px 0px 1px rgba(49, 53, 57,0.2);
+	font-weight: 600;
+}
+#footer > .footer-inner i {
+	margin-top: 4px;
+	color: #e2e2e2;
+}
+#footer .recent-post h6 a {
+	color: #fff;
+}
+#footer .recent-post h6 a:hover {
+	color: #e67e22;
+}
+#footer .highlighted {
+    background: none;
+	max-height: 29px;
+	font-size: 10px;
+	margin-bottom: 7px;
+}
+#footer .highlighted:focus {
+    border-color: #e67e22;
+	color: #e67e22;
+}
+#footer #signup_submit,
+#footer #footer-signup_submit {
+	margin-top: 7px;
+    color: rgb(226, 226, 226);
+    border: 2px solid rgb(226, 226, 226);
+	border-radius: 3px;
+    background-color: transparent;
+    font-size: 11px;
+	padding: 3px 12px 2px 12px;
+	font-family: Open Sans;
+	font-weight: 700;
+	-webkit-transition: all 200ms linear 0ms;
+    -khtml-transition: all 200ms linear 0ms;
+    -moz-transition: all 200ms linear 0ms;
+    -ms-transition: all 200ms linear 0ms;
+    -o-transition: all 200ms linear 0ms;
+    transition: all 200ms linear 0ms;
+}
+#footer #signup_submit:hover,
+#footer #footer-signup_submit:hover {
+	border-color: #e67e22;
+	background-color: #e67e22;
+	color: #fff;
+}
+.recent-tweets .twt-follow a:hover {
+	color: #e67e22;
+}
+#footer > .footer-inner .recent-tweets .twt-icon i {
+	color: #616161;
+}
+#footer > .footer-inner .recent-tweets .flex-direction-nav li a:hover i {
+	color: #e67e22;
+}
+#footer .simple_line {
+    border-bottom: 1px solid rgba(114, 114, 114,0.2);
+	box-shadow: 0px -1px 0px #000000;
+    -webkit-box-shadow: 0px -1px 0px #000000;
+    -moz-box-shadow: 0px -1px 0px #000000;
+}
+#footer a {
+	color: #e2e2e2;
+}
+#footer a:hover {
+	color: #e67e22;
+}
+
+.copyright {
+	color: inherit;
+}
+.folio-icons-wrap .linker a {
+    color: #000;
+}
+.folio-icons-wrap .linker a:hover {
+    background-color: #000;
+	color: #fff;
+}
+.mfp-close-btn-in .mfp-close:hover {
+    color: #e67e22;
+}
+.fount-close-figure, .fount-left-figure, .fount-right-figure, .mfp-close {
+	color: #acacac;
+	opacity: 1;
+}
+#fount-left:hover .inner-mover, #fount-right:hover .inner-mover, .mfp-close:hover {
+    color: #e67e22;
+}
+.underlined.color {
+	border-bottom-color: rgba(230, 126, 34,0.9);
+	text-shadow: 0px 0px 1px rgba(230, 126, 34,0.2);
+}
+.service-item .service-icon,
+.service-item .service-icon:hover {
+	font-size: 25px;
+	line-height: 25px;
+}
+.service-item .service-icon i {
+	color: #acacac;
+	-webkit-transition: all 200ms linear 0ms;
+    -khtml-transition: all 200ms linear 0ms;
+    -moz-transition: all 200ms linear 0ms;
+    -ms-transition: all 200ms linear 0ms;
+    -o-transition: all 200ms linear 0ms;
+    transition: all 200ms linear 0ms;
+}
+.service-item:hover .service-icon i {
+	color: #e67e22;
+}
+.member-ul-slider .owl-controls .owl-buttons > div:hover i {
+    color: #e67e22;
+}
+.fount-left-figure a, .fount-right-figure a {
+	color: #acacac;
+}
+.fount-left-figure:hover a, .fount-right-figure:hover a {
+	color: #e67e22;
+}
+@media only screen and (max-width: 768px) {
+	#footer > .footer-inner {
+		position: static;
+	}
+	.service-item .service-icon {
+		float: left !important;
+	}
+	.service-item .service-content {
+		text-align: left;
+		padding-left: 2%;
+	}
+}
+@media only screen and (max-width: 480px) {
+	#copyright .col-sm-6.text-right {
+		text-align: left;
+	}
+}

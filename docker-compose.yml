@@ -1,0 +1,38 @@
+version: "3.4"
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: ${PROJECT_NAME}_app
+    volumes:
+      - ./:/app
+    restart: unless-stopped
+
+  caddy:
+    image: caddy:2.3.0
+    container_name: ${PROJECT_NAME}_caddy
+    volumes:
+      - ./docker/Caddyfile:/etc/caddy/Caddyfile
+      - ./public:/app/public
+    ports:
+      # HTTP
+      - target: 80
+        published: ${HTTP_PORT:-80}
+        protocol: tcp
+      # HTTPS
+      - target: 443
+        published: ${HTTPS_PORT:-443}
+        protocol: tcp
+      # HTTP/3
+      - target: 443
+        published: ${HTTP3_PORT:-443}
+        protocol: udp
+    environment:
+        SERVER_NAME: ${SERVER_NAME:-localhost, caddy:80}
+        DOCUMENT_ROOT: /app/public
+        PHP_GATEWAY: app:9000
+    depends_on:
+      - app
+    restart: unless-stopped
